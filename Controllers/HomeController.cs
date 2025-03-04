@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EasyWeather.Models;
+using EasyWeather.Models.Weather;
 
 namespace EasyWeather.Controllers;
 

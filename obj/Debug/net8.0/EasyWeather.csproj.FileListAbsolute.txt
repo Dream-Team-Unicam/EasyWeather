@@ -32,3 +32,4 @@ C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\refint\EasyWeather.dll
 C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\EasyWeather.pdb
 C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\EasyWeather.genruntimeconfig.cache
 C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\ref\EasyWeather.dll
+C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\EasyWeather.sourcelink.json
