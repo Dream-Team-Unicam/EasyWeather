@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "taskLabel": "attività-main",
+      "appliesTo": "wwwroot/css/main.css",
+      "type": "launch"
+    }
+  ],
+  "version": "0.2.1"
+}
