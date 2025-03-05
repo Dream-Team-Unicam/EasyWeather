@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 18:57:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 19:04:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EasyWeather/css/site.jlkd0np5s2.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jlkd0np5s2"},{"Name":"integrity","Value":"sha256-hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s="},{"Name":"label","Value":"_content/EasyWeather/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 18:57:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzXS/VMfRpMbkCFDkQZV69ZraxzytPUjFFQyfpxzB0s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 19:04:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EasyWeather/EasyWeather.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EasyWeather.qu5m2itjr5.bundle.scp.css'))</AssetFile>

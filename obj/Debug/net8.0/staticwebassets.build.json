@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bEm1Fu6tJO4Ra0ajkejTXmlJAbl4xwDm5p+qG1tQ72A=",
+  "Hash": "RVkvId/lTmGwH3/05Lf8VP3DJRQRMo4DvRyIpIkFfNo=",
   "Source": "EasyWeather",
   "BasePath": "_content/EasyWeather",
   "Mode": "Default",
@@ -1637,7 +1637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 18:57:46 GMT"
+          "Value": "Tue, 04 Mar 2025 19:04:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1674,7 +1674,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 18:57:46 GMT"
+          "Value": "Tue, 04 Mar 2025 19:04:00 GMT"
         },
         {
           "Name": "Cache-Control",
