@@ -5,3 +5,7 @@
 /obj
 /obj/*Debug
 /.vs/*EasyWeather
+/bin/Debug/net8.0
+/.vs/EasyWeather/v17
+/obj/Debug/net8.0/ref
+/obj/Debug/net8.0/refint
