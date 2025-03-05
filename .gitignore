@@ -3,3 +3,5 @@
 /.vs
 /bin
 /obj
+/obj/*Debug
+/.vs/*EasyWeather

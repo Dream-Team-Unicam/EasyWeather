@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyWeather")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+300113dbe1f72d07539bb39aa4761afad5bef2b3")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de17143de4d15c0a68ab39f12b2d64ec2acc7857")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("EasyWeather")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyWeather")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
