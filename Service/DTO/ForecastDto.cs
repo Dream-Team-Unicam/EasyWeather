@@ -26,7 +26,6 @@ public class ForecastDto(List<WeatherDto> weathers, LocationDto location, long s
         var sunset = Convert.ToInt64(info["sunset"]);
         
         var weatherList = forecastJson["list"].ToList();
-        Console.WriteLine(forecastJson["list"].ToList()[0].ToString());
         var weathers = new List<WeatherDto>();
 
         foreach (var weatherEntry in weatherList)

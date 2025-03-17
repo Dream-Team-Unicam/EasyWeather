@@ -25,6 +25,7 @@ public sealed class HttpService : IDisposable
             {
                 // Aggiunta del TOKEN di OpenWeather
                 parameters.Add("appid", Config.API_TOKEN);
+                parameters.Add("lang", "it");
 
                 var query = new FormUrlEncodedContent(parameters).ReadAsStringAsync().Result;
                 uriBuilder.Query = query;
