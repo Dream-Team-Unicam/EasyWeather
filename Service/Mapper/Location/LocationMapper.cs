@@ -11,7 +11,6 @@ public class LocationMapper : IMapper<Location, LocationDto>
         return new LocationDto(
                 name: obj.Name,
                 country: obj.Country,
-                timezone: obj.Timezone,
                 coordinates: cordinatesMapper.ToDto(obj.Coordinates)
             );
     }
@@ -21,7 +20,6 @@ public class LocationMapper : IMapper<Location, LocationDto>
         return new Location(
                 name: dto.Name,
                 country: dto.Country,
-                timezone: dto.Timezone,
                 coordinates: cordinatesMapper.ToObject(dto.Coordinates)
             );
      }

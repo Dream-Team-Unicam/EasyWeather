@@ -8,19 +8,16 @@ public class LocationDto
 {
     public string Name { get; private set; }
     public string Country { get; private set; }
-
-    public int Timezone { get; private set; }
     public CoordinatesDTO Coordinates { get; private set; }
 
     public LocationDto() { }
 
     // Costruttore con parametri
-    public LocationDto(string name, string country, CoordinatesDTO coordinates, int timezone = -1)
+    public LocationDto(string name, string country, CoordinatesDTO coordinates)
     {
         Name = name;
         Country = country ?? "";
         Coordinates = coordinates;
-        Timezone = timezone;
     }
 
     public static LocationDto fromJson(string json)
@@ -66,11 +63,9 @@ public class LocationDto
                         longitude: (double)location["lon"]
                     );
                 }
-
                 LocationDto locationDTO = new LocationDto(
                     name: location["name"].ToString(),
                     country: location["country"].ToString(),
-                    timezone: (int)location["timezone"],
                     coordinates: coordinates
                 );
 
@@ -95,16 +90,25 @@ public class LocationDto
                 CoordinatesDTO coordinates;
                 var city = openWeatherLocationDict["city"];
                 
+                Console.WriteLine(city);
                 if (city["coord"] != null) {
-                    coordinates = new CoordinatesDTO(
-                        latitude: (double)city["coord"]["lat"],
-                        longitude: (double)city["coord"]["lon"]
-                    );
-                    
+                    if (city["coord"]["lat"] != null && city["coord"]["lon"] != null)
+                    {
+                        coordinates = new CoordinatesDTO(
+                            latitude: (double)city["coord"]["lat"],
+                            longitude: (double)city["coord"]["lon"]
+                        );
+                    }
+                    else
+                    {
+                        coordinates = new CoordinatesDTO(
+                            latitude: 0,
+                            longitude: 0
+                        );
+                    }
                     locationDTO = new LocationDto(
                         name: city["name"].ToString(),
                         country: city["country"].ToString(),
-                        timezone: (int)city["timezone"],
                         coordinates: coordinates
                     );
                 } else
@@ -117,7 +121,6 @@ public class LocationDto
                     locationDTO = new LocationDto(
                         name: openWeatherLocationDict["name"].ToString(),
                         country: openWeatherLocationDict["country"].ToString(),
-                        timezone: (int)openWeatherLocationDict["timezone"],
                         coordinates: coordinates
                     );
                 }
