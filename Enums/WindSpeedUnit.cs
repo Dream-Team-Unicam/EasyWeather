@@ -1,4 +1,4 @@
-﻿namespace EasyWeather.Models.Weather
+﻿namespace EasyWeather.Enums
 {
     public enum WindSpeedUnit
     {

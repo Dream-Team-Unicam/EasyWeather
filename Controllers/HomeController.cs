@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EasyWeather.Models;
-using EasyWeather.Models.Weather;
 
 namespace EasyWeather.Controllers;
 
@@ -14,9 +13,10 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index() 
     {
-        return View();
+
+      return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

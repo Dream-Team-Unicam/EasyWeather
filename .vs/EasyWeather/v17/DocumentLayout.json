@@ -1,78 +1,54 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "WorkspaceRootPath": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\",
+  "WorkspaceRootPath": "C:\\Users\\foiks\\Desktop\\EasyWeather\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|c:\\users\\foiks\\desktop\\easyweather\\service\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|solutionrelative:service\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|c:\\users\\foiks\\desktop\\easyweather\\models\\weather\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|solutionrelative:models\\weather\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
-=======
-  "WorkspaceRootPath": "C:\\Users\\foiks\\Desktop\\EasyWeather\\",
-  "Documents": [],
->>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< Updated upstream
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 202,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T14:08:34.99Z"
+              "DocumentIndex": 0,
+              "Title": "WeatherDTO.cs",
+              "DocumentMoniker": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Service\\DTO\\WeatherDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTO\\WeatherDTO.cs",
+              "ToolTip": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Service\\DTO\\WeatherDTO.cs",
+              "RelativeToolTip": "Service\\DTO\\WeatherDTO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:25:32.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:25:21.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-03T16:04:21.679Z",
+              "Title": "Weather.cs",
+              "DocumentMoniker": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Models\\Weather\\Weather.cs",
+              "RelativeDocumentMoniker": "Models\\Weather\\Weather.cs",
+              "ToolTip": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Models\\Weather\\Weather.cs",
+              "RelativeToolTip": "Models\\Weather\\Weather.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:15:46.711Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
-=======
-      "DocumentGroups": []
->>>>>>> Stashed changes
     }
   ]
 }

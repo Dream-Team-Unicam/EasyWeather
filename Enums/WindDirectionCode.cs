@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace EasyWeather.Models.Weather
+namespace EasyWeather.Enums
 {
     public enum WindDirectionCode
     {

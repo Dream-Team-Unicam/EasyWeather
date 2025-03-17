@@ -1,16 +1,30 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using EasyWeather.Views.Weather;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EasyWeather.Controllers
 {
+
     [Route("weather")]
     public class WeatherController : Controller
     {
-        // GET: Weather
-        [HttpGet]
-        public ActionResult Index()
+        private WeatherRepository weatherRepository = new WeatherRepository();
+
+        public RedirectResult Index()
         {
-            return View();
+            return Redirect("/");
+        }
+
+        [Route("get")]
+        public ActionResult HourlyForecastByCoordinates(double latitude, double longitude)
+        {
+            var forecast = weatherRepository.GetForecastByCoordinates(latitude, longitude).GetAwaiter().GetResult();
+            
+            var viewModel = new HourlyForecastByCoordinatesModel
+            {
+                Forecast = forecast
+            };
+            
+            return View(viewModel);
         }
     }
 }
