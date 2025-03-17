@@ -1,6 +1,6 @@
 ﻿namespace EasyWeather.Models.Weather.Location
 {
-    public class Location(string name, string country, Coordinates coordinates, int timezone = -1)
+    public class Location(string name, string country, Coordinates coordinates)
     {
         public string Name
         {
@@ -19,11 +19,6 @@
             get;
             private set;
         } = coordinates;
-
-        public int Timezone
-        {
-            get;
-            private set;
-        } = timezone;
+        
     }
 }

@@ -55,6 +55,12 @@ public class WeatherDto(
             var min = (double)openWeatherWeatherDict["main"]["temp_min"];
             var max = (double)openWeatherWeatherDict["main"]["temp_max"];
             var feelsLike = (double)openWeatherWeatherDict["main"]["feels_like"];
+
+            current = Double.Round(current - 273.15, 2);
+            min = Double.Round(min - 273.15, 2);
+            max = Double.Round(max - 273.15, 2);
+            feelsLike = Double.Round(feelsLike - 273.15, 2);
+            
             var temperature = new TemperatureDto(current: current, min: min, max: max, feelsLike: feelsLike);
 
             // Humidity

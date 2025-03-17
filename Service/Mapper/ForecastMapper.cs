@@ -1,7 +1,5 @@
 ﻿using EasyWeather.Models.Weather;
-using EasyWeather.Models.Weather.Location;
 using EasyWeather.Service.DTO;
-using EasyWeather.Service.DTO.Location;
 
 namespace EasyWeather.Service.Mapper;
 
