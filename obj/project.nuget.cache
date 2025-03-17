@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wSamwAn6+O8=",
+  "dgSpecHash": "0YpwcVtzG78=",
   "success": true,
-  "projectFilePath": "C:\\Users\\foiks\\Desktop\\EasyWeather\\EasyWeather.csproj",
+  "projectFilePath": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\EasyWeather.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\foiks\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\jason\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

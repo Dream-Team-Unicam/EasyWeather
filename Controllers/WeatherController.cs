@@ -9,9 +9,9 @@ namespace EasyWeather.Controllers
     {
         private WeatherRepository weatherRepository = new WeatherRepository();
 
-        public RedirectResult Index()
+        public ActionResult Index()
         {
-            return Redirect("/");
+            return View();
         }
 
         [Route("get")]

@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\foiks\\Desktop\\EasyWeather\\",
+  "WorkspaceRootPath": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|c:\\users\\foiks\\desktop\\easyweather\\service\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|solutionrelative:service\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|c:\\users\\foiks\\desktop\\easyweather\\models\\weather\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53DE704-9ED7-4C17-A05B-2DF946F11E7A}|EasyWeather.csproj|solutionrelative:models\\weather\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Weather\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Weather\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Controllers\\LocationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LocationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherDTO.cs",
-              "DocumentMoniker": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Service\\DTO\\WeatherDTO.cs",
-              "RelativeDocumentMoniker": "Service\\DTO\\WeatherDTO.cs",
-              "ToolTip": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Service\\DTO\\WeatherDTO.cs",
-              "RelativeToolTip": "Service\\DTO\\WeatherDTO.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T18:46:11.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "Controllers\\LocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:25:32.293Z",
+              "WhenOpened": "2025-03-17T18:23:00.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T17:11:01.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Weather\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Weather\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\Views\\Weather\\Index.cshtml",
+              "RelativeToolTip": "Views\\Weather\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T17:12:23.339Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Weather.cs",
-              "DocumentMoniker": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Models\\Weather\\Weather.cs",
-              "RelativeDocumentMoniker": "Models\\Weather\\Weather.cs",
-              "ToolTip": "C:\\Users\\foiks\\Desktop\\EasyWeather\\Models\\Weather\\Weather.cs",
-              "RelativeToolTip": "Models\\Weather\\Weather.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:15:46.711Z",
-              "EditorCaption": ""
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\Dream-Team-Unicam\\EasyWeather\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-17T17:18:33.486Z"
             }
           ]
         }

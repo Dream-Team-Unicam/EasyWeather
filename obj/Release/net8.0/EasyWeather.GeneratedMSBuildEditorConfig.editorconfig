@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jason/source/repos/Dream-Team-Unicam/EasyWeather/Views/Weather/HourlyForecastByCoordinates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxIb3VybHlGb3JlY2FzdEJ5Q29vcmRpbmF0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jason/source/repos/Dream-Team-Unicam/EasyWeather/Views/Weather/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

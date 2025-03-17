@@ -218,3 +218,6 @@ C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\ref\EasyWeather.dll
 C:\Users\foiks\Desktop\EasyWeather\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\EasyWeather.csproj.AssemblyReference.cache
 C:\Users\foiks\Desktop\EasyWeather\obj\Debug\net8.0\EasyWeat.228460DE.Up2Date
+C:\Users\jason\source\repos\Dream-Team-Unicam\EasyWeather\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jason\source\repos\Dream-Team-Unicam\EasyWeather\obj\Debug\net8.0\EasyWeather.csproj.AssemblyReference.cache
+C:\Users\jason\source\repos\Dream-Team-Unicam\EasyWeather\obj\Debug\net8.0\EasyWeat.228460DE.Up2Date

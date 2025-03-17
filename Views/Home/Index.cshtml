@@ -2,86 +2,109 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="search">
-    <img height="20" src="img/cerca.png" alt="Cerca" />
-    <input type="search" name="Ricerca" value="Camerino" placeholder="Cerca" />
+<h1 class="title">Easy Weather</h1>
+
+<div class="search" style="position: relative;">
+    <img height="20" src="~/img/cerca.png" alt="Cerca" />
+    <input type="search" id="citySearch" name="Ricerca" placeholder="Cerca" autocomplete="off" />
 </div>
+<div id="suggestions" class="suggestions" style="display:none;"></div> <!-- Suggestionsssss -->
 
-<div class="content">
-    <main>
-        <p class="luogo"><span>Camerino</span>, Italia</p>
-        <img width="200" src="/img/meteo/meteo-sun-cloud.png" alt="Alternate Text" />
-        <div class="gradi">
-            <h1>29°C</h1>
-            <p>Si prevede una bella giornata.</p>
-        </div>
 
-        <div class="trioData">
-            <span>
-                <img width="25" src="/img/wind.png" alt="Alternate Text" />
-                <p>11km/h</p>
-            </span>
-            <span>
-                <img width="25" src="/img/drop.png" alt="Alternate Text" />
-                <p>02%</p>
-            </span>
-            <span>
-                <img width="25" src="/img/sun.png" alt="Alternate Text" />
-                <p>8Hr</p>
-            </span>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery -->
+<script>
+    $(document).ready(function () {
+        $("#citySearch").on("keyup", function () {
+            var query = $(this).val();
             
-            
-        </div>
-    </main>
+            if (query.length >= 3) { //  Almeno 3 caratteri digitati
+                $.ajax({
+                    url: '/location/get',
+                    data: { q: query, limit: 10 },
+                    success: function (response) {
+                        var suggestionsHtml = '';
+                        // Mi assicuto che ogni oggetto della risposta abbia una proprietà 'name'
+                        if (response && response.length > 0) {
+                            suggestionsHtml += '<ul>';
+                            $.each(response, function (i, location) {
+                                suggestionsHtml += '<li>' + location.name + '</li>';
+                            });
+                            suggestionsHtml += '</ul>';
+                        }
+                        $("#suggestions").html(suggestionsHtml).show();
+                    },
+                    error: function () {
+                        $("#suggestions").hide();
+                    }
+                });
+            } else {
+                $("#suggestions").hide();
+            }
+        });
 
-    <div class="hourly">
-        <h1>Hourly Forecast</h1>
-        <div class="framecard">
-            <div class="cards">
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-sun.png" alt="Alternate Text" />
-                    <span>
-                        <p>18:00</p>
-                        <h3>20°</h3>
-                    </span>
-                </div>
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-sun-cloud.png" alt="Alternate Text" />
-                    <span>
-                        <p>19:00</p>
-                        <h3>18°</h3>
-                    </span>
-                </div>
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-clouds.png" alt="Alternate Text" />
-                    <span>
-                        <p>20:00</p>
-                        <h3>16°</h3>
-                    </span>
-                </div>
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-sun.png" alt="Alternate Text" />
-                    <span>
-                        <p>18:00</p>
-                        <h3>20°</h3>
-                    </span>
-                </div>
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-sun-cloud.png" alt="Alternate Text" />
-                    <span>
-                        <p>19:00</p>
-                        <h3>18°</h3>
-                    </span>
-                </div>
-                <div class="card">
-                    <img width="50" src="/img/meteo/meteo-clouds.png" alt="Alternate Text" />
-                    <span>
-                        <p>20:00</p>
-                        <h3>16°</h3>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+        // Linput cliccato va nella barra di ricerca
+        $(document).on("click", "#suggestions li", function () {
+            $("#citySearch").val($(this).text());
+            $("#suggestions").hide();
+        });
+    });
+</script>
 
-</div>
+<style>
+    /* Stile temporaneo debug per i suggeestionsss*/
+
+    body{
+
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .wrapper {
+        background: transparent;
+        backdrop-filter: none;
+        border: none;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        margin-top: 100px;
+        overflow: visible;
+    }
+
+    .suggestions {
+        height: auto;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        z-index: 1000;
+        background: transparent;
+        border-radius: 20px;
+        padding: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px) !important;
+    }
+
+        .suggestions ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .suggestions li {
+            color: #fff;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            outline: 2px solid rgba(255, 255, 255, 0);
+            transition: all 0.5s ease;
+
+        }
+
+            .suggestions li:hover {
+                outline: 2px solid rgba(255, 255, 255, 0.2);
+                transition: all 0.5s ease;
+            }
+</style>
